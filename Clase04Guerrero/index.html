@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitnessClub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./simulador.js"></script>
+</head>
+<body>
+    <h1>Suscripcion FitnessClub</h1>
+    <div class="formulario">
+        <div class="planes">
+            <input class="button" type="button" onclick="basico()" value="Suscribirme a plan Basico"/>
+                <ul>
+                    <li>Contrato Anual</li>
+                    <li>Inscripción</li>
+                    <li>Mantenimiento Anual</li>
+                </ul>
+                <ul>
+                    <li>$3,588</li>
+                    <li>$300</li>
+                    <li>$599</li>
+                </ul>
+                <p>Al momento de realizar el contrato solo tendras opción a elegir entre nuestro gimnasio multifuncional o nuestro gimnasio de MMA</p>
+                <input class="button" type="button" onclick="premium()" value="Suscribirme a plan Premium"/>
+                <ul>
+                    <li>Contrato Anual</li>
+                    <li>Inscripción</li>
+                    <li>Mantenimiento Anual</li>
+                </ul>
+                <ul>
+                    <li>$5,988</li>
+                    <li>$0</li>
+                    <li>$599</li>
+                </ul>
+                <p>El plan Premium te da acceso a ingresar a nuestras instalaciones de gimnasio asi como a nuestras clases de MMA</p>
+                <br><br>
+        </div>        
+
+    </div>
+
+    <div class="parcialidades">
+        <select>
+            <option selected>-- Selecciona Tus Parcialidades --</option>
+            <option class="anual">Pago de contado</option>
+            <option class="6" value="6">6 meses</option>
+            <option class="12">12 meses</option>
+        </select>
+    </div><br><br>
+
+</body>
+</html>
